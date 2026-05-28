@@ -144,6 +144,31 @@ body {
     margin-left: 1rem;
 }
 
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.games-btn {
+    background: rgba(255, 255, 255, 0.05);
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-weight: 900;
+    font-size: 0.9rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.3s;
+}
+
+.games-btn:hover,
+.games-btn.active {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: var(--primary-cyan);
+    color: var(--primary-cyan);
+}
+
 .join-btn {
     background: var(--primary-cyan);
     color: #121217;
@@ -433,9 +458,18 @@ body {
         font-size: 0.6rem;
     }
 
+    .games-btn {
+        padding: 8px 15px;
+        font-size: 0.75rem;
+    }
+
     .join-btn {
         padding: 8px 15px;
         font-size: 0.75rem;
+    }
+
+    .nav-actions {
+        gap: 0.5rem;
     }
 
     .sidebar-left,
