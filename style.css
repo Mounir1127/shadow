@@ -393,23 +393,84 @@ body {
     .main-title {
         font-size: 6rem;
     }
+}
 
-    .nav-menu {
-        display: none;
+@media (max-width: 992px) {
+    .main-title {
+        font-size: 4.5rem;
     }
 }
 
 @media (max-width: 768px) {
-    .main-title {
-        font-size: 4rem;
-    }
-
-    .sidebar-left,
-    .sidebar-right {
-        display: none;
+    .navbar {
+        padding: 0;
     }
 
     .nav-container {
-        padding: 1rem;
+        padding: 0.8rem 1.2rem;
+    }
+
+    .logo-img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .main-name {
+        font-size: 1.4rem;
+    }
+
+    .sub-name {
+        font-size: 0.6rem;
+    }
+
+    .join-btn {
+        padding: 8px 15px;
+        font-size: 0.75rem;
+    }
+
+    .sidebar-left,
+    .sidebar-right,
+    .nav-menu {
+        display: none;
+    }
+
+    .content-wrapper {
+        padding: 0 20px;
+    }
+
+    .main-title {
+        font-size: 3.2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .description {
+        font-size: 0.9rem;
+        margin-bottom: 2rem;
+    }
+
+    .more-btn {
+        padding: 15px 35px;
+        font-size: 0.9rem;
+    }
+
+    .games-container {
+        padding-top: 100px;
+    }
+
+    .main-title.small {
+        font-size: 3rem;
+    }
+
+    .section-header {
+        margin-bottom: 2.5rem;
+    }
+
+    .game-card {
+        margin-bottom: 20px;
+    }
+
+    .games-grid {
+        grid-template-columns: 1fr;
+        padding: 0 15px;
     }
 }
